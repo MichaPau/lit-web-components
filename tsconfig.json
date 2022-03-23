@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "es2020",
+      "moduleResolution": "node",
+      "noEmitOnError": true,
+      "lib": ["es2020", "dom", "ES2021.String"],
+      "strict": false,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "downlevelIteration": true,
+      "importHelpers": true,
+      "outDir": "./lib",
+      "sourceMap": true,
+      "inlineSources": true,
+      "rootDir": "./src",
+      "declaration": true,
+      "declarationMap": true,
+      "useDefineForClassFields": false
+    },
+    "include": ["src/**/*.ts"]
+  }

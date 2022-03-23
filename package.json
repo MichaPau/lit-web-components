@@ -1,0 +1,27 @@
+{
+  "name": "mp-comps",
+  "version": "0.1.1",
+  "description": "michaPau lit webcomponents set",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "server-start": "web-dev-server --open / --node-resolve",
+    "server-start:watch": "web-dev-server --open / --node-resolve --watch",
+    "start": "npm-run-all --parallel build:watch server-start:watch"
+  },
+  "author": "michapau",
+  "license": "ISC",
+  "devDependencies": {
+    "@lit-labs/motion": "^1.0.1",
+    "@web/dev-server": "^0.1.25",
+    "lit": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
